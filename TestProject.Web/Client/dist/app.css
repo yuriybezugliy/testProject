@@ -1,0 +1,7 @@
+.navbar {
+  margin-bottom: 0; }
+  .navbar .navbar-brand:after {
+    content: '*'; }
+
+.app-content {
+  padding: 15px; }

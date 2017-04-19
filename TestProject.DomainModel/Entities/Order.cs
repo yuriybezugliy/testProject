@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using TestProject.DomainModel.Entities.Identity;
 
 namespace TestProject.DomainModel.Entities
 {
@@ -7,7 +8,7 @@ namespace TestProject.DomainModel.Entities
     {
         public DateTime OrderDate { get; set; }
 
-        //public virtual ApplicationUser User { get; set; }
+        public virtual ApplicationUser User { get; set; }
 
         public virtual ICollection<Ticket> Tickets { get; set; }
     }
